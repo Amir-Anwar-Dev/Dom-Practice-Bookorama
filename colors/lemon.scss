@@ -1,0 +1,57 @@
+
+/*/
+  * Colors
+    ** #3498db
+    ** #9b59b6
+    ** #2ecc71
+    ** #e74c3c
+/*/
+$maincolor: #2ecc71;
+ 
+
+
+
+/*/ Book list /*/
+#book-list {
+    ul {
+        li {
+            &:hover {
+                border-color: $maincolor;
+            }
+            .delete {
+                background: $maincolor;
+            }
+        }
+    }
+}
+
+/*/ add book /*/
+#add-book {
+
+    button {
+        border: 1px solid $maincolor;
+        background: $maincolor;
+    }
+}
+
+/*
+    Tool Box
+*/
+.tool-box {
+    .main {
+        background-color: $maincolor;
+    }
+    ul {
+        .color {
+            background-color: $maincolor;        
+            }            
+    }
+}
+
+@keyframes fade-in {
+
+    0% {
+        color: $maincolor;
+    }
+
+}
